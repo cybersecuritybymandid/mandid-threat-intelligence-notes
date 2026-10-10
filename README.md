@@ -7,13 +7,14 @@ These notes are written for system owners, administrators, defenders and securit
 ## Available notes
 
 - [Ransomware Recovery Vendor Risk: Lessons from the MonsterCloud Allegations](notes/ransomware-recovery-vendor-risk.md) — questions, evidence requirements and authorization controls for selecting a ransomware recovery provider under pressure.
+- [Microscan and FishHub: Defensive Hunting After an Infrastructure Seizure](notes/microscan-fishhub-defensive-hunting.md) — a source-led triage and evidence workflow for scanning, Exchange authentication, VPN persistence and email-exfiltration signals described in AA26-281A.
 
 ## How to use this repository
 
 1. Start with the cited primary sources and check their publication dates.
 2. Treat charges and claims as allegations unless a court has established otherwise.
 3. Adapt the controls to the affected systems, jurisdiction, insurer requirements and incident-response plan.
-4. Record who authorized each vendor action, communication and payment decision.
+4. Record who authorized each material action and communication.
 5. Preserve evidence before changing compromised systems whenever it is safe to do so.
 
 ## Method
@@ -32,8 +33,9 @@ MANDID supports remote incident containment, investigation, recovery and hardeni
 
 [Request cybersecurity help from MANDID](https://mandidsecurity.com/cyber-help/?utm_source=github&utm_medium=repository&utm_campaign=mandid-threat-intelligence-notes&utm_content=readme)
 
-## Authoritative ransomware resources
+## Authoritative defensive resources
 
+- [Joint Cybersecurity Advisory AA26-281A](https://www.ic3.gov/CSA/2026/261008.pdf)
 - [CISA — #StopRansomware Guide](https://www.cisa.gov/stopransomware/ransomware-guide)
 - [FBI Internet Crime Complaint Center — Ransomware](https://www.ic3.gov/CrimeInfo/Ransomware)
 - [U.S. Treasury — ransomware reporting, resilience and sanctions considerations](https://home.treasury.gov/news/press-releases/jy0364)
