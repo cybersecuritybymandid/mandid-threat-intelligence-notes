@@ -8,6 +8,7 @@ These notes are written for system owners, administrators, defenders and securit
 
 - [Ransomware Recovery Vendor Risk: Lessons from the MonsterCloud Allegations](notes/ransomware-recovery-vendor-risk.md) — questions, evidence requirements and authorization controls for selecting a ransomware recovery provider under pressure.
 - [Microscan and FishHub: Defensive Hunting After an Infrastructure Seizure](notes/microscan-fishhub-defensive-hunting.md) — a source-led triage and evidence workflow for scanning, Exchange authentication, VPN persistence and email-exfiltration signals described in AA26-281A.
+- [PaperCut Exploit Chain: Post-Patch Triage for CVE-2026-81578 and CVE-2026-82078](notes/papercut-post-patch-triage.md) — an authorized defensive workflow for exposure review, evidence preservation, application and host hunting, containment and recovery validation.
 
 ## How to use this repository
 
@@ -35,6 +36,7 @@ MANDID supports remote incident containment, investigation, recovery and hardeni
 
 ## Authoritative defensive resources
 
+- [PaperCut urgent security advisory](https://www.papercut.com/kb/Main/security-bulletin-27-aug-2026-urgent-security-advisory/)
 - [Joint Cybersecurity Advisory AA26-281A](https://www.ic3.gov/CSA/2026/261008.pdf)
 - [CISA — #StopRansomware Guide](https://www.cisa.gov/stopransomware/ransomware-guide)
 - [FBI Internet Crime Complaint Center — Ransomware](https://www.ic3.gov/CrimeInfo/Ransomware)
