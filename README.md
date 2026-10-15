@@ -9,6 +9,7 @@ These notes are written for system owners, administrators, defenders and securit
 - [Ransomware Recovery Vendor Risk: Lessons from the MonsterCloud Allegations](notes/ransomware-recovery-vendor-risk.md) — questions, evidence requirements and authorization controls for selecting a ransomware recovery provider under pressure.
 - [Microscan and FishHub: Defensive Hunting After an Infrastructure Seizure](notes/microscan-fishhub-defensive-hunting.md) — a source-led triage and evidence workflow for scanning, Exchange authentication, VPN persistence and email-exfiltration signals described in AA26-281A.
 - [PaperCut Exploit Chain: Post-Patch Triage for CVE-2026-81578 and CVE-2026-82078](notes/papercut-post-patch-triage.md) — an authorized defensive workflow for exposure review, evidence preservation, application and host hunting, containment and recovery validation.
+- [SonicWall SMA1000: Post-Patch Hunt for CVE-2026-83548 and CVE-2026-83549](notes/sonicwall-sma1000-post-patch-hunt.md) — a gateway-focused workflow for exposure reconstruction, evidence preservation, identity and TOTP review, configuration integrity, containment and trusted recovery.
 
 ## How to use this repository
 
@@ -36,6 +37,9 @@ MANDID supports remote incident containment, investigation, recovery and hardeni
 
 ## Authoritative defensive resources
 
+- [SonicWall product notice SNWLID-2026-0016](https://www.sonicwall.com/support/notices/kA1VN000002AXmQ0AW)
+- [CISA Known Exploited Vulnerabilities catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+- [Rapid7 SonicWall SMA1000 threat research](https://www.rapid7.com/blog/post/etr-critical-sonicwall-sma1000-vulnerabilities-cve-2026-83548-cve-2026-83549-exploited-in-the-wild/)
 - [PaperCut urgent security advisory](https://www.papercut.com/kb/Main/security-bulletin-27-aug-2026-urgent-security-advisory/)
 - [Joint Cybersecurity Advisory AA26-281A](https://www.ic3.gov/CSA/2026/261008.pdf)
 - [CISA — #StopRansomware Guide](https://www.cisa.gov/stopransomware/ransomware-guide)
