@@ -10,6 +10,7 @@ These notes are written for system owners, administrators, defenders and securit
 - [Microscan and FishHub: Defensive Hunting After an Infrastructure Seizure](notes/microscan-fishhub-defensive-hunting.md) — a source-led triage and evidence workflow for scanning, Exchange authentication, VPN persistence and email-exfiltration signals described in AA26-281A.
 - [PaperCut Exploit Chain: Post-Patch Triage for CVE-2026-81578 and CVE-2026-82078](notes/papercut-post-patch-triage.md) — an authorized defensive workflow for exposure review, evidence preservation, application and host hunting, containment and recovery validation.
 - [SonicWall SMA1000: Post-Patch Hunt for CVE-2026-83548 and CVE-2026-83549](notes/sonicwall-sma1000-post-patch-hunt.md) — a gateway-focused workflow for exposure reconstruction, evidence preservation, identity and TOTP review, configuration integrity, containment and trusted recovery.
+- [CI/CD Supply-Chain Compromise: Secrets, Provenance and Containment](notes/ci-cd-supply-chain-compromise-response.md) — a release-integrity and credential-response workflow covering evidence preservation, artifact scoping, provenance, clean rebuilds and downstream notification.
 
 ## How to use this repository
 
@@ -37,6 +38,10 @@ MANDID supports remote incident containment, investigation, recovery and hardeni
 
 ## Authoritative defensive resources
 
+- [U.S. Department of Justice — TeamPCP software supply-chain indictment](https://www.justice.gov/usao-ndca/pr/australian-man-indicted-teampcp-cyberattacks-software-supply-chain)
+- [GitHub Docs — Secure use reference for GitHub Actions](https://docs.github.com/en/actions/reference/security/secure-use)
+- [npm Docs — Trusted publishing for npm packages](https://docs.npmjs.com/trusted-publishers/)
+- [SLSA v1.2 — Provenance](https://slsa.dev/spec/v1.2/provenance)
 - [SonicWall product notice SNWLID-2026-0016](https://www.sonicwall.com/support/notices/kA1VN000002AXmQ0AW)
 - [CISA Known Exploited Vulnerabilities catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 - [Rapid7 SonicWall SMA1000 threat research](https://www.rapid7.com/blog/post/etr-critical-sonicwall-sma1000-vulnerabilities-cve-2026-83548-cve-2026-83549-exploited-in-the-wild/)
